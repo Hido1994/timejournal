@@ -1,6 +1,6 @@
 import 'package:excel/excel.dart';
-import 'package:fahrtenbuch/persistence/model/trip.dart';
-import 'package:fahrtenbuch/service/trip_service.dart';
+import 'package:timejournal/persistence/model/trip.dart';
+import 'package:timejournal/service/trip_service.dart';
 import 'package:intl/intl.dart';
 
 class ReportService {
@@ -83,7 +83,7 @@ class ReportService {
       sheet.appendRow(row);
       sheet.row(rowIndex).forEach((cell) {
         if (cell != null && cell.value is DateTime) {
-          cell!.cellStyle = (cell.cellStyle ?? CellStyle()).copyWith(
+          cell.cellStyle = (cell.cellStyle ?? CellStyle()).copyWith(
             numberFormat:
             const CustomDateTimeNumFormat(formatCode: 'dd.MM.yyyy HH:mm'),
           );

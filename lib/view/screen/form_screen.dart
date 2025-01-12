@@ -1,7 +1,7 @@
-import 'package:fahrtenbuch/persistence/model/trip.dart';
-import 'package:fahrtenbuch/service/trip_service.dart';
-import 'package:fahrtenbuch/view/widget/autocomplete_text_form_field.dart';
-import 'package:fahrtenbuch/view/widget/datetime_picker_text_form_field.dart';
+import 'package:timejournal/persistence/model/trip.dart';
+import 'package:timejournal/service/trip_service.dart';
+import 'package:timejournal/view/widget/autocomplete_text_form_field.dart';
+import 'package:timejournal/view/widget/datetime_picker_text_form_field.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -13,8 +13,7 @@ class FormScreen extends StatefulWidget {
   final bool finalize;
 
   const FormScreen(
-      {Key? key, this.entryId, this.parentId, this.finalize = false})
-      : super(key: key);
+      {super.key, this.entryId, this.parentId, this.finalize = false});
 
   @override
   State<FormScreen> createState() => _FormScreenState();

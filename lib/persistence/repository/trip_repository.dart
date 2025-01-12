@@ -1,7 +1,7 @@
-import 'package:fahrtenbuch/persistence/datasource/data_source.dart';
-import 'package:fahrtenbuch/persistence/datasource/sqlite_data_source.dart';
-import 'package:fahrtenbuch/persistence/model/trip.dart';
-import 'package:fahrtenbuch/persistence/repository/abstract_repository.dart';
+import 'package:timejournal/persistence/datasource/data_source.dart';
+import 'package:timejournal/persistence/datasource/sqlite_data_source.dart';
+import 'package:timejournal/persistence/model/trip.dart';
+import 'package:timejournal/persistence/repository/abstract_repository.dart';
 
 class TripRepository extends AbstractRepository<Trip, int> {
   static const String _table = 'Trip';

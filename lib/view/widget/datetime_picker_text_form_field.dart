@@ -9,12 +9,12 @@ class DateTimePickerTextFormField extends StatefulWidget {
   final FormFieldValidator<String>? validator;
 
   const DateTimePickerTextFormField({
-    Key? key,
+    super.key,
     required this.title,
     required this.onChanged,
     this.initialValue,
     this.validator,
-  }) : super(key: key);
+  });
 
   @override
   State<DateTimePickerTextFormField> createState() =>

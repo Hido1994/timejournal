@@ -1,7 +1,7 @@
-import 'package:fahrtenbuch/persistence/model/trip.dart';
-import 'package:fahrtenbuch/service/trip_service.dart';
-import 'package:fahrtenbuch/state/trip_provider_state.dart';
-import 'package:fahrtenbuch/view/screen/form_screen.dart';
+import 'package:timejournal/persistence/model/trip.dart';
+import 'package:timejournal/service/trip_service.dart';
+import 'package:timejournal/state/trip_provider_state.dart';
+import 'package:timejournal/view/screen/form_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
@@ -9,7 +9,7 @@ import 'package:provider/provider.dart';
 class TripListItem extends StatefulWidget {
   final Trip entry;
 
-  const TripListItem({Key? key, required this.entry}) : super(key: key);
+  const TripListItem({super.key, required this.entry});
 
   @override
   State<TripListItem> createState() => _TripListItem();

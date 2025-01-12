@@ -1,7 +1,7 @@
-import 'package:fahrtenbuch/state/trip_provider_state.dart';
-import 'package:fahrtenbuch/view/screen/report_screen.dart';
-import 'package:fahrtenbuch/view/screen/settings_screen.dart';
-import 'package:fahrtenbuch/view/screen/trips_screen.dart';
+import 'package:timejournal/state/trip_provider_state.dart';
+import 'package:timejournal/view/screen/report_screen.dart';
+import 'package:timejournal/view/screen/settings_screen.dart';
+import 'package:timejournal/view/screen/trips_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Fahrtenbuch',
+      title: 'TimeJournal',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

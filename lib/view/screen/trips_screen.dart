@@ -1,7 +1,7 @@
-import 'package:fahrtenbuch/service/trip_service.dart';
-import 'package:fahrtenbuch/state/trip_provider_state.dart';
-import 'package:fahrtenbuch/view/screen/form_screen.dart';
-import 'package:fahrtenbuch/view/widget/trip_list_item.dart';
+import 'package:timejournal/service/trip_service.dart';
+import 'package:timejournal/state/trip_provider_state.dart';
+import 'package:timejournal/view/screen/form_screen.dart';
+import 'package:timejournal/view/widget/trip_list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -24,7 +24,7 @@ class _MyTripsScreen extends State<TripsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Fahrtenbuch')),
+      appBar: AppBar(title: const Text('Journal')),
       body: Consumer<TripProviderState>(builder: (context, state, child) {
         return ListView.separated(
           padding: const EdgeInsets.only(top: 20),

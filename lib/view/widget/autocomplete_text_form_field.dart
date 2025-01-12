@@ -11,15 +11,14 @@ class AutocompleteTextFormField extends StatefulWidget {
   final FormFieldValidator<String>? validator;
 
   const AutocompleteTextFormField(
-      {Key? key,
+      {super.key,
       required this.title,
       required this.options,
       required this.onChanged,
       this.onSelected,
       this.initialValue,
       this.textInputType = TextInputType.text,
-      this.validator})
-      : super(key: key);
+      this.validator});
 
   @override
   State<AutocompleteTextFormField> createState() =>

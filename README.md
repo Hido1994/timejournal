@@ -1,7 +1,6 @@
-# Fahrtenbuch :car:
+# TimeJournal
 
-Flutter-App zum führen eines Fahrtenbuches. 
-Aktuell ist die Applikation vollständig offline.
+Simple flutter application to track things.
 
 ## Technologien
 
