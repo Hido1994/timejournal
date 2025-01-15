@@ -1,4 +1,5 @@
 import 'package:timejournal/state/trip_provider_state.dart';
+import 'package:timejournal/view/screen/calendar_screen.dart';
 import 'package:timejournal/view/screen/report_screen.dart';
 import 'package:timejournal/view/screen/settings_screen.dart';
 import 'package:timejournal/view/screen/trips_screen.dart';
@@ -60,6 +61,7 @@ class _MainScreen extends State<MainScreen> {
     '/': const TripsScreen(),
     '/report': const ReportScreen(),
     '/settings': const SettingsScreen(),
+    '/calendar': const CalendarScreen(),
   };
 
   @override
@@ -71,6 +73,7 @@ class _MainScreen extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.list),
@@ -84,6 +87,10 @@ class _MainScreen extends State<MainScreen> {
             icon: Icon(Icons.settings),
             label: 'Settings',
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.calendar_month),
+            label: 'Kalendar',
+          )
         ],
         currentIndex: _selectedIndex,
         onTap: (index) {
