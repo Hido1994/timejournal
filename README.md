@@ -1,4 +1,4 @@
-# TimeJournal
+# Faktura
 
 Simple flutter application to track things.
 

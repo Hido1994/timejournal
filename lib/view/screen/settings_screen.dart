@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:timejournal/persistence/datasource/sqlite_data_source.dart';
-import 'package:timejournal/service/preference_service.dart';
+import 'package:faktura/persistence/datasource/sqlite_data_source.dart';
+import 'package:faktura/service/preference_service.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';

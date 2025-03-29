@@ -1,5 +1,5 @@
-import 'package:timejournal/persistence/model/trip.dart';
-import 'package:timejournal/persistence/repository/trip_repository.dart';
+import 'package:faktura/persistence/model/trip.dart';
+import 'package:faktura/persistence/repository/trip_repository.dart';
 
 class TripService {
   static final TripService instance = TripService._privateConstructor();

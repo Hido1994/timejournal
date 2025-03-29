@@ -1,7 +1,7 @@
-import 'package:timejournal/service/trip_service.dart';
-import 'package:timejournal/state/trip_provider_state.dart';
-import 'package:timejournal/view/screen/form_screen.dart';
-import 'package:timejournal/view/widget/trip_list_item.dart';
+import 'package:faktura/service/trip_service.dart';
+import 'package:faktura/state/trip_provider_state.dart';
+import 'package:faktura/view/screen/form_screen.dart';
+import 'package:faktura/view/widget/trip_list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

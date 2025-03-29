@@ -1,8 +1,8 @@
-import 'package:timejournal/state/trip_provider_state.dart';
-import 'package:timejournal/view/screen/calendar_screen.dart';
-import 'package:timejournal/view/screen/report_screen.dart';
-import 'package:timejournal/view/screen/settings_screen.dart';
-import 'package:timejournal/view/screen/trips_screen.dart';
+import 'package:faktura/state/trip_provider_state.dart';
+import 'package:faktura/view/screen/calendar_screen.dart';
+import 'package:faktura/view/screen/report_screen.dart';
+import 'package:faktura/view/screen/settings_screen.dart';
+import 'package:faktura/view/screen/trips_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'TimeJournal',
+      title: 'Faktura',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

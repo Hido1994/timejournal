@@ -1,6 +1,6 @@
 import 'package:excel/excel.dart';
-import 'package:timejournal/persistence/model/trip.dart';
-import 'package:timejournal/service/trip_service.dart';
+import 'package:faktura/persistence/model/trip.dart';
+import 'package:faktura/service/trip_service.dart';
 import 'package:intl/intl.dart';
 
 class ReportService {

@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 
 import 'package:excel/excel.dart';
-import 'package:timejournal/service/report_service.dart';
-import 'package:timejournal/service/trip_service.dart';
+import 'package:faktura/service/report_service.dart';
+import 'package:faktura/service/trip_service.dart';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 

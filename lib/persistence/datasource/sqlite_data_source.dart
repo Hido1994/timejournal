@@ -1,4 +1,4 @@
-import 'package:timejournal/persistence/datasource/data_source.dart';
+import 'package:faktura/persistence/datasource/data_source.dart';
 import 'package:sqflite/sqflite.dart';
 
 import '../../service/preference_service.dart';

@@ -1,4 +1,4 @@
-package com.example.timejournal
+package com.example.faktura
 
 import io.flutter.embedding.android.FlutterActivity
 
